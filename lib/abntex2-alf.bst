@@ -1201,7 +1201,7 @@ FUNCTION {format.organization.estado}
     { editor empty$
         { organization empty$
 	    'skip$
-            { organization "urrul" change.case$ "organization"  bibinfo.check output}
+            { organization "u" change.case$ "organization"  bibinfo.check output}
           if$}
         { format.editors output.nonnull }
       if$}
